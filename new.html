@@ -113,7 +113,7 @@
             </div>
         </div>
 
- <div id="overlay">
+      <!-- <div id="overlay">
             <div class="content">
                 <div class="container">
                     <div class="row">
@@ -157,7 +157,7 @@
                     </div>
                 </div>
             </div>
-        </div>  
+        </div>  -->
 
         <div id="fh5co-header">
             <div class="container">
@@ -684,10 +684,10 @@
             });
         }
 
-       
         function togglePlayButton1(play) {
             document.getElementById("youtube-icon1").src = play ? "./images/circle-play-solid.svg" : "./images/pause-circle.png";
         }
+
         function toggleAudio1() {
             if (player1.getPlayerState() == 1 || player1.getPlayerState() == 3) {
                 player1.pauseVideo();
